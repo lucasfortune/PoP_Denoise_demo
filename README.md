@@ -1,12 +1,18 @@
 # PoP_Denoise_demo
 
 what
+
+## Filter-based denoising
+
 image filter
 explanation filter
+
+## Machine Learning based denoising
+
 image n2v
 explanation n2v
 
-## How to use
+# How to use this notebook
 
 This notebook is intended to be run in Google Colab but can also be used locally.
 
