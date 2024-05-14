@@ -5,15 +5,15 @@ This repositroy contains a demonstration of four different methods used to denoi
 ## Filter-based denoising
 
 <p align="center">
-  <img src="./sources/pop_denoise_demo_filter_comp.jpg" width="350" title="Comparrison of filter based denoising results">
+  <img src="./sources/pop_denoise_demo_filter_comp.jpg" width="500" title="Comparrison of filter based denoising results">
 </p>
-![filter comp](./sources/pop_denoise_demo_filter_comp.jpg)
-explanation filter
+
 
 ## Machine Learning based denoising
 
-![structN2v comp](./sources/pop_denoise_demo_structN2V_comp.jpg)
-explanation n2v
+<p align="center">
+  <img src="./sources/pop_denoise_demo_structN2V_comp.jpg.jpg" width="650" title="Comparrison of ML based denoising results">
+</p>
 
 # How to use this notebook
 
