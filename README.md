@@ -4,6 +4,9 @@ This repositroy contains a demonstration of four different methods used to denoi
 
 ## Filter-based denoising
 
+<p align="center">
+  <img src="./sources/pop_denoise_demo_filter_comp.jpg" width="350" title="Comparrison of filter based denoising results">
+</p>
 ![filter comp](./sources/pop_denoise_demo_filter_comp.jpg)
 explanation filter
 
