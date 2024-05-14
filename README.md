@@ -12,7 +12,7 @@ This repositroy contains a demonstration of four different methods used to denoi
 ## Machine Learning based denoising
 
 <p align="center">
-  <img src="./sources/pop_denoise_demo_structN2V_comp.jpg.jpg" width="650" title="Comparrison of ML based denoising results">
+  <img src="./sources/pop_denoise_demo_structN2V_comp.jpg" width="650" title="Comparrison of ML based denoising results">
 </p>
 
 # How to use this notebook
