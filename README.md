@@ -9,7 +9,7 @@ explanation filter
 
 ## Machine Learning based denoising
 
-image n2v
+![structN2v comp](./sources/pop_denoise_demo_structN2V_comp.jpg)
 explanation n2v
 
 # How to use this notebook
