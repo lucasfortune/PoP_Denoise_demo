@@ -4,7 +4,7 @@ This repositroy contains a demonstration of four different methods used to denoi
 
 ## Filter-based denoising
 
-![filter comp][def]
+![filter comp](./sources/pop_denoise_demo_filter_comp.jpg)
 explanation filter
 
 ## Machine Learning based denoising
