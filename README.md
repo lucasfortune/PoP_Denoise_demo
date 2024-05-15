@@ -55,21 +55,28 @@ Depending on the type of noise in an image it is possible and very usefull to no
 
 # How to use this notebook
 
-This notebook is intended to be run in Google Colab but can also be used locally.
-
-To open this notebook in Colab just click on <a href="https://colab.research.google.com/github/lucasfortune/PoP_Denoise_demo/blob/main/PoP_Denoise_demo.ipynb">this</a> link. 
+The easiest way to run this notebook is Google Colab [![Opn in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lucasfortune/PoP_Denoise_demo/blob/main/colab/PoP_Denoise_demo_colab.ipynb) (Only requires Google Account)
 
 
-If you prefer to run the notebook locally all necessary dependencies must be installed. It is recommended to install everything in a anaconda virtual environment. After installing <a href="https://docs.anaconda.com/free/anaconda/install/index.html">anaconda</a> run the folowwing commands:
+If you prefer to run the notebook locally all necessary dependencies must be installed. It is recommended to install everything in a anaconda virtual environment. 
 
-```bash
-conda create -n denoise_demo python=3.9
-conda activate denoise_demo
-conda install matplotlib tifffile scikit-image pandas
-```
+## Installation
 
-If you are planning on also running the Noise2Void Demo it is necessary to install n2v and Tensorflow. Please follow the installation instructions <a href="https://pypi.org/project/n2v/"> here </a>.
+1. Install [anaconda](https://www.anaconda.com/distribution/) as described on the website.  
+
+2. Download repository.
+    * `git clone https://github.com/lucasfortune/PoP_Denoise_demo.git`
+    * `cd conda`
+
+3. Create ana anaconda environment using `conda`.
+    * `conda create -n denoise_demo python=3.9 -f requirements.txt`
+    * `conda activate denoise_demo`
 
 
+4. Install N2V & Tensorflow (optional)
+If you are planning on also running the Noise2Void Demo it is necessary to install n2v and Tensorflow. Please follow the installation instructions [here](https://pypi.org/project/n2v/).
+
+5. Start the jupyter server
+    * `jupyter notebook PoP_Denoise_demo_conda.ipynb`
 
 [def]: /Users/lucasfortune/Documents/arbeit/phd/code/denoise_demo/PoP_Denoise_demo/sources/pop_denoise_demo_filter_comp.jpg
