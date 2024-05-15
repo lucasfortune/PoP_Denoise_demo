@@ -58,9 +58,11 @@ Depending on the type of noise in an image it is possible and very usefull to no
 The easiest way to run this notebook is Google Colab [![Opn in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lucasfortune/PoP_Denoise_demo/blob/main/colab/PoP_Denoise_demo_colab.ipynb) (Only requires Google Account)
 
 
-If you prefer to run the notebook locally all necessary dependencies must be installed. It is recommended to install everything in a anaconda virtual environment. 
+## Run locally
 
-## Installation
+If you prefer to run the notebook locally all necessary dependencies must be installed. It is recommended to install everything in a anaconda virtual environment as specified in the follwoing guide.
+
+### Install guide
 
 1. Install [anaconda](https://www.anaconda.com/distribution/) as described on the website.  
 
