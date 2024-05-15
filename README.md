@@ -23,6 +23,32 @@ Non-local means filtering reduces noise by averaging each pixel in an image with
 
 ## Machine Learning based denoising
 
+### Structured Noise2Void
+
+Unlike traditional supervised denoising methods that require pairs of noisy and clean images, Noise2Void trains a U-net architecture model using only noisy images, making it especially suitable for bioimage data where obtaining clean images is challenging. This is achieved through a self-supervised learning approach where during training some pixels in the input image are masked. The model is then trained to predict the values of these masked pixels based on the surrounding unmasked pixels.
+
+#### U-net Architecture
+
+<p align="center">
+  <img src="./sources/u_net.png" width="600" title="U-Net architecture">
+</p>
+
+Noise2Void utilizes a model of the u-net architecture consisting of an encoder, where spatial resolution of the input image is gradually reduced an prominent features are extracted and a decoder, where the image is rebuild (or predicted) from the learned features. Low level information is also being forwared through skip connections between corresponding layers in the encoder and decoder to help preserve spatial information and finde detail lost during downsampling.
+
+#### Masking Schemes
+
+<p align="center">
+  <img src="./sources/sn2v_train.png" width="400" title="Training scheme for masked pixels">
+</p>
+
+By masking one (Noise2Void) or more (structuredN2V) pixels during training the model is forced to predict the value of these pixels based on the surrounding unmasked pixels. 
+
+<p align="center">
+  <img src="./sources/sn2v_masking_scheme.png" width="700" title="Determining masking scheme from spatial autocorrelation">
+</p>
+
+Depending on the type of noise in an image it is possible and very usefull to not only mask a single pixel in the input image during training but use a masking scheme of several pixels. By calculating the spatial autocorrelation of the noise of an image some structural information about the noise can be gained. In absence of a pure noise image, the spatial autocorrelation of an image denoised with N2V will yield close to the same information since after denoising only structural noise remains. After determining the shape of the masking scheme the right size must be choosen to best mask the structural noise during training while preserving the biological information.
+
 <p align="center">
   <img src="./sources/pop_denoise_demo_structN2V_comp.jpg" width="620" title="Comparrison of ML based denoising results">
 </p>
