@@ -70,7 +70,7 @@ If you prefer to run the notebook locally all necessary dependencies must be ins
     * `git clone https://github.com/lucasfortune/PoP_Denoise_demo.git`
     * `cd conda`
 
-3. Create ana anaconda environment using `conda`.
+3. Create an anaconda environment using `conda`.
     * `conda create -n denoise_demo python=3.9 -f requirements.txt`
     * `conda activate denoise_demo`
 
