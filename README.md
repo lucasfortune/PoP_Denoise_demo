@@ -74,7 +74,7 @@ If you prefer to run the notebook locally all necessary dependencies must be ins
 
 
 4. Install N2V & Tensorflow (optional)
-If you are planning on also running the Noise2Void Demo it is necessary to install n2v and Tensorflow. Please follow the installation instructions [here](https://pypi.org/project/n2v/).
+    If you are planning on also running the Noise2Void Demo it is necessary to install n2v and Tensorflow. Please follow the installation instructions [here](https://pypi.org/project/n2v/).
 
 5. Start the jupyter server
     * `jupyter notebook PoP_Denoise_demo_conda.ipynb`
